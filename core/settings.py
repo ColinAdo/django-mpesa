@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'phonenumber_field',
+    'django_phonenumbers',
     'mpesa',
 ]
 
@@ -89,6 +90,8 @@ DATABASES = {
     }
 }
 
+
+PHONE_NUMBER_REGION = 'KE'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
